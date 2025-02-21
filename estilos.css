@@ -1,0 +1,68 @@
+body{
+    color: rgb(7, 2, 1);
+    background-color: crimson;
+}
+/* Estilos para el formulario de búsqueda */
+aside {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Esto alinea todo el contenido a la derecha */
+    align-items: center;
+    height: 0px; /* Para que ocupe toda la altura de la pantalla */
+    background-color: #f74141;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea la barra a la derecha */
+    padding: 5px;
+    background-color: #532c2c;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #1ee972;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: rgb(133, 11, 11);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+ 
+    
+/* Estilos para el pie de página */
+footer {
+    background-color: #f58989;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    }
+   
+    footer p {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    }
+   
+    footer p {
+    margin-right: 2px;
+    }
+    footer ahref {
+    color: #fff;
+    text-decoration: none;
+    }

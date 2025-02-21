@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css"/>
+    <img src="Imagen6.jpg" align="center" alt="EPIDEMIOLOGIA">
+    <br>
+    <img src="ministerio de salud.jpg" align="center" alt="Ministerio de Salud de La Rioja">
+    <img src="Imagen8.jpg" align="right" alt="Gobierno de L Rioja">
+    <title>Acceso a resultados de dengue</title>
+</head>
+<body>
+    <header>
+        <center><h1>INFORMES DE LABORATORIOS DE DENGUE</h1></center>
+        <br>
+        <br>
+        
+        <aside>
+           
+    <form action="#" method="get">
+        <input type="text" placeholder="Buscar...">
+        <button type="submit">Buscar</button>
+    </form>
+</aside>
+        </aside>
+    
+        <H2>MENU DE NAVEGACION DEL SITIO</H2>
+
+    </header>
+    <div>
+        <a href="http://google.com">RESULTADOS DE ANALISIS CLINICOS</a> |
+        <a href="http://google.com">RECOMENDACIONES PERSONALIZADAS</a> |
+        <a href="http://google.com">SOLICITUD DE SERVICIO DE FUMIGACION</a> |
+        <a href="http://google.com">SOLICITUD DE TELECONSULTA</a> |
+
+    </div>
+    <br>
+    <div>
+        <h2>SERVICIO QUE PROPORCIONAMOS:</h2>
+        <p>Esta plataforma integral en línea permite a los usuarios acceder a sus resultados de análisis de dengue, recibir recomendaciones personalizadas, solicitar servicios de fumigación en su domicilio y tener acceso a una teleconsulta con un médico si es necesario</p>
+    </div>
+    <br>
+    <nav>
+       <center><h2>"Profesionales que forman parte de nuestro staff medico":</h2></center> 
+        <li>Dr. Perez Juan Carlos - Medico Clinico</li>
+        <li>Dr. Manrique Alberto - Medico Clinico</li>
+        <li>Dra. Juarez Adela - Medica Pediatra</li>
+        <li>Dr. Davalos Humberto -Medico Pediatra</li>
+        <li>Lic. Martinez Dayana - Lic. Enfermeria Univ.</li>
+    </nav>
+    <br>
+    <hr>
+    <h1>FORMULARIO DE SOLICITUD DE FUMIGACION</h1>
+    <form action="" method="get">
+        <p>NOMBRE Y APELLIDO:<input type="text"name="NOMBRE Y APELLIDO" maxlength="50"</p>
+        <p>DIRECCION:<input type="text"name="DIRECCION" maxlength="80"</p>
+        <p>DNI:<input type="number"name="DNI" maxlength="50"</p>
+        <p>TELEFONO:<input type="number"name="TELEFONO" maxlength="50"</p>
+        <p>DIPONIBILIDAD HORARIA:<input type="radio"name="DISPONIBILIDAD HORARIA" value="M" />MAÑANA<input type="radio" name="DISPONIBILIDAD HORARIA" value="T" />TARDE</p>
+
+        <p><input type="submit" value="ENVIAR"/></p>
+        
+
+        
+    </form>
+    <hr>
+    <h1>SOLICITUD DE TELECONSULTA</h1>
+    <form action="" method="get">
+        <p>NOMBRE Y APELLIDO:<input type="text"name="NOMBRE Y APELLIDO" maxlength="50"</p>
+        <p>EDAD:<input type="number"name="EDAD" maxlength="6"</p>
+        <p>DNI:<input type="text"name="DNI" maxlength="20"</p>
+        <p>TELEFONO:<input type="number"name="TELEFONO" maxlength="50"</p>
+        <p>DIPONIBILIDAD HORARIA:<input type="radio"name="DISPONIBILIDAD HORARIA" value="M" />MAÑANA<input type="radio" name="DISPONIBILIDAD HORARIA" value="T" />TARDE</p>
+
+        <p><input type="submit" value="ENVIAR"/></p>
+        
+
+        
+    </form>
+   
+<hr>
+    <div class="container">
+        <section>
+            <h2>Ingreso de Datos del Paciente</h2>
+            <form action="resultados.php" method="POST">
+                <label for="nombre">Nombre del paciente:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="fecha">Fecha de análisis:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <label for="resultado">Resultado del análisis:</label>
+                <input type="text" id="resultado" name="resultado" required>
+
+                <button type="submit">Consultar Resultados</button>
+            </form>
+        </section>
+<br>
+<hr>
+        <section>
+            <h2>Laboratorio Realizado</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre del Paciente</th>
+                        <th>Fecha de Análisis</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>2025-02-05</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Ana Gómez</td>
+                        <td>2025-02-03</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Carlos Ruiz</td>
+                        <td>2025-02-01</td>
+                        
+                    </tr>
+                    <!-- Los resultados se mostrarían dinámicamente con datos del servidor -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+<script src="java.js"></script>
+</body>
+<br>
+<br>
+<hr>
+<footer>
+    <center><h3>Ante cualquier duda o consulta comuniquese a nuestro telefono 3804896101</h3></center>
+    <center><h3>o asista al centro de salud mas cercano</h3></center>
+</footer>
+</html>
+
+
